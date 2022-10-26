@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container">
+    <div class="container-fluid">
       <header class="row justify-content-evently">
         <div class="col-3">
           <img
@@ -173,7 +173,7 @@
           </div>
         </div>
       </div>
-      <footer class="footer col-12">
+      <footer class="row footer justify-content-evently">
         <h6>&copy;Evenpool,保留所有权利</h6>
       </footer>
     </div>
@@ -212,9 +212,7 @@ export default {
   color: #755548;
   /* margin-top: 60px; */
 }
-.container {
-  padding: 0px;
-}
+
 .little-font {
   font-size: smaller;
   color: #998a7e;
@@ -222,6 +220,7 @@ export default {
 .trunk {
   padding: 60px 0px;
 }
+
 header,
 footer {
   background: #fbead4;
@@ -247,7 +246,6 @@ header .title h2 {
   margin-top: 30px;
 }
 .btn:hover {
-  /* background-color: #755548; */
   background-color: #c9b097;
   border: #998a7e 1px solid;
   color: #755548;
@@ -260,13 +258,9 @@ a:hover {
   color: #755548;
 }
 .banner {
-  /* padding-top: 50px; */
   height: 400px;
-  /* background: #755548; */
 }
 .banner .carousel-item {
-  /* transform: scale(0.6); */
-  /* width: 300px !important; */
   height: 400px;
 }
 .banner .carousel-item img {
