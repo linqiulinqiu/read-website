@@ -3,10 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import "bootstrap/dist/css/bootstrap.min.css"
-import { Carousel,CarouselItem } from "element-ui"
-
-Vue.use(Carousel)
-Vue.use(CarouselItem)
+import VueClipboard from "vue-clipboard2"
+Vue.use(VueClipboard)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
