@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container-fluid">
+    <div class="container">
       <header class="row justify-content-evently">
         <div class="col-3">
           <img
@@ -173,7 +173,7 @@
           </div>
         </div>
       </div>
-      <footer class="footer">
+      <footer class="footer col-12">
         <h6>&copy;Evenpool,保留所有权利</h6>
       </footer>
     </div>
@@ -211,6 +211,9 @@ export default {
   text-align: center;
   color: #755548;
   /* margin-top: 60px; */
+}
+.container {
+  padding: 0px;
 }
 .little-font {
   font-size: smaller;
