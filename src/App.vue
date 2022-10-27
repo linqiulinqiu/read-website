@@ -123,7 +123,7 @@
           </div>
           <div class="down col-8 col-md-4 offset-2 offset-md-0">
             <h5>下载详情</h5>
-            <button type="button" class="btn">
+            <button type="button" class="btn btn-outline">
               <a
                 class="down-link"
                 href="https://read.britao.com/download/apk/readapp"
