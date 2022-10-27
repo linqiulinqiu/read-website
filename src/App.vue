@@ -123,7 +123,7 @@
           </div>
           <div class="down col-8 col-md-4 offset-2 offset-md-0">
             <h5>下载详情</h5>
-            <button type="button" class="btn btn-outline">
+            <button type="button" class="btn btn-outline-secondary">
               <a
                 class="down-link"
                 href="https://read.britao.com/download/apk/readapp"
@@ -234,7 +234,8 @@ header img {
 header .title h2 {
   text-align: center;
 }
-.btn {
+.btn,
+.btn-outline-secondary {
   color: #755548;
   border: #755548 1px solid;
 }
@@ -246,7 +247,8 @@ header .title h2 {
 .down {
   margin-top: 30px;
 }
-.btn:hover {
+.btn:hover,
+.btn-outline-secondary:hover {
   background-color: #c9b097;
   border: #998a7e 1px solid;
   color: #755548;
