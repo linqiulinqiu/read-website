@@ -123,8 +123,9 @@
           </div>
           <div class="down col-8 col-md-4 offset-2 offset-md-0">
             <h5>下载详情</h5>
-            <button type="button" class="btn btn-outline-primary">
+            <button type="button" class="btn">
               <a
+                class="down-link"
                 href="https://read.britao.com/download/apk/readapp"
                 title="Readbook app down link"
                 >点击下载
@@ -250,13 +251,18 @@ header .title h2 {
   border: #998a7e 1px solid;
   color: #755548;
 }
-a {
+
+a.down-link {
   text-decoration: none;
   color: #755548;
 }
-a:hover {
+a.down-link:hover {
   color: #755548;
 }
+/* a.down-link:active {
+  color: #755548;
+  background-color: #c9b097;
+} */
 .banner {
   height: 400px;
 }
