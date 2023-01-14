@@ -3,10 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import ElementUI from 'element-ui'
-import VueClipboard from "vue-clipboard2"
+
 import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(VueClipboard)
+import VueClipboard from "vue-clipboard2"
+
 Vue.use(ElementUI)
+Vue.use(VueClipboard)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
