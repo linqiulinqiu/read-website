@@ -18,6 +18,8 @@
           <el-button
             class="share btn"
             v-clipboard:copy="message"
+            v-clipboard:success="copyOk"
+            v-clipboard:error="copyErr"
             data-toggle="popover"
             title="点击将链接复制到剪切板上"
             icon="el-icon-share"
@@ -138,9 +140,28 @@ export default {
       message: "https://read.dusiyi.com/download/apk/readapp",
     };
   },
+  methods: {
+    copyOk: function () {
+      this.$message({
+        showClose: true,
+        message: this.message + "已经复制到剪切板，快去分享吧。",
+        type: "success",
+      });
+    },
+    copyErr: function () {
+      this.$message({
+        showClose: true,
+        message: "复制 " + this.message + " 失败，请重新复制",
+        type: "error",
+      });
+    },
+  },
 };
 </script>
 <style>
+body {
+  margin: 0px;
+}
 .logo {
   width: 120px;
   border-radius: 15px;
@@ -154,7 +175,10 @@ export default {
 .el-footer {
   background: #fbead4;
   text-align: center;
-  height: 100px !important;
+  height: 90px !important;
+}
+.el-main {
+  min-height: calc(100vh - 260px);
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
