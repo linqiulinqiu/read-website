@@ -1,6 +1,6 @@
-# read-web
+# read-site
 
-> A website for readapp down and details
+> for readbook website
 
 ## Build Setup
 

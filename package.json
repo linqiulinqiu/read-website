@@ -1,8 +1,8 @@
 {
-  "name": "read-web",
+  "name": "read-site",
   "version": "1.0.0",
-  "description": "A website for readapp down and details",
-  "author": "Readbook",
+  "description": "for readbook website",
+  "author": "linqiu <1131868300@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,9 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "@fortawesome/vue-fontawesome": "^2.0.8",
-    "element-ui": "^2.15.10",
-    "vue": "^2.6.11",
+    "element-ui": "^2.15.12",
+    "vue": "^2.5.2",
     "vue-clipboard2": "^0.3.3"
   },
   "devDependencies": {
@@ -20,7 +19,6 @@
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.1",
-    "babel-plugin-component": "^1.1.1",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-runtime": "^6.22.0",
     "babel-plugin-transform-vue-jsx": "^3.5.0",
