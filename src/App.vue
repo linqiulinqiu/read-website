@@ -79,7 +79,7 @@
                 href="https://testflight.apple.com/join/yq0jJo3b"
                 title="Readbook app down link in iOS(TestFlight)"
               >
-                Android下载
+                iOS下载
               </a>
             </el-button>
           </li>
