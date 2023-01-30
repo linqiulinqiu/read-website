@@ -52,20 +52,14 @@
         <ul>
           <li>
             <el-button class="btn">
-              <a
-                class="down-link"
-                href="https://read.dusiyi.com/app"
-                title="Web APP"
-              >
-                Web App
-              </a>
+              <a class="down-link" href="/app" title="Web APP"> Web App </a>
             </el-button>
           </li>
           <li>
             <el-button class="btn">
               <a
                 class="down-link"
-                href="https://read.dusiyi.com/download/apk/readapp"
+                href="/download/apk/readapp"
                 title="Readbook app down link in Android"
               >
                 Android下载
@@ -124,6 +118,7 @@
   </el-container>
 </template>
 <script>
+import config from "../package.json";
 export default {
   computed: {
     listImgs: function () {
@@ -136,6 +131,7 @@ export default {
     },
   },
   data() {
+    console.log("version:", config.version);
     return {
       message: "https://read.dusiyi.com/download/apk/readapp",
     };
